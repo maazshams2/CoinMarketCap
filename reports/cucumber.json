@@ -1,0 +1,340 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8451602400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "dashboard.beforeTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 927168800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "API.beforeTest()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Task 1",
+        "description": "",
+        "id": "back-end-tasks;task-1",
+        "after": [
+          {
+            "result": {
+              "duration": 1760832400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "dashboard.afterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 189552300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have the API key",
+            "match": {
+              "location": "API.i_have_the_api_key()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6360191000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Execute GET call on cryptocurrency map",
+            "match": {
+              "location": "API.execute_get_call_on_cryptocurrency_map()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2311199900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Retrieve BTC, USTD, ETH IDs",
+            "match": {
+              "location": "API.retrieve_the_following_ids()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 892941100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Use ids in tools price conversion call successfully",
+            "match": {
+              "location": "API.use_ids_in_tools_price_conversion_call()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3573502300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "dashboard.beforeTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 755800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "API.beforeTest()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Task 2",
+        "description": "",
+        "id": "back-end-tasks;task-2",
+        "after": [
+          {
+            "result": {
+              "duration": 859679200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "dashboard.afterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 538300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I have the API key",
+            "match": {
+              "location": "API.i_have_the_api_key()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 926686300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Execute GET call on cryptocurrency info with 1027 id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1027",
+                  "offset": 45
+                }
+              ],
+              "location": "API.execute_get_call_on_cryptocurrency_info_with_id(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 713244100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Confirm following assertions with base path \u0027data.1027.\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data.1027.",
+                  "offset": 45
+                }
+              ],
+              "location": "API.confirm_the_following_assertions_with_base_path(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "path",
+                  "value"
+                ]
+              },
+              {
+                "cells": [
+                  "logo",
+                  "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png"
+                ]
+              },
+              {
+                "cells": [
+                  "urls.technical_doc[0]",
+                  "https://github.com/ethereum/wiki/wiki/White-Paper"
+                ]
+              },
+              {
+                "cells": [
+                  "symbol",
+                  "ETH"
+                ]
+              },
+              {
+                "cells": [
+                  "date_added",
+                  "2015-08-07T00:00:00.000Z"
+                ]
+              },
+              {
+                "cells": [
+                  "platform",
+                  "null"
+                ]
+              },
+              {
+                "cells": [
+                  "tags",
+                  "mineable"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3614222200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "dashboard.beforeTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 710700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "API.beforeTest()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Task 3",
+        "description": "",
+        "id": "back-end-tasks;task-3",
+        "after": [
+          {
+            "result": {
+              "duration": 1254314100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "dashboard.afterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 417900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I have the API key",
+            "match": {
+              "location": "API.i_have_the_api_key()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8523694400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Execute GET call on cryptocurrency info for the first 10 ids",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 54
+                }
+              ],
+              "location": "API.execute_get_call_on_cryptocurrency_info_for_the_first_ids(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 458246000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Check the 10 currencies have \u0027mineable\u0027 tag",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 10
+                },
+                {
+                  "val": "mineable",
+                  "offset": 30
+                }
+              ],
+              "location": "API.retrieve_the_first_currencies(int,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 244220700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verify that the correct cryptocurrencies are printed out",
+            "match": {
+              "location": "API.verify_that_the_correct_cryptocurrencies_are_printed_out()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Back-end Tasks",
+    "description": "",
+    "id": "back-end-tasks",
+    "keyword": "Feature",
+    "uri": "src/test/resources/BETasks.feature",
+    "tags": []
+  }
+]
